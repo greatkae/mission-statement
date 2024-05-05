@@ -36,3 +36,48 @@ img {
     width: 150px;
     padding-left: 225px;
 }
+.dark {
+    background-color: #222; /* Dark background color */
+    color: #fff; /* Light text color */
+}
+
+.dark header {
+    background-color: #333; /* Dark header background color */
+}
+
+.dark main {
+    background-color: #333; /* Dark main section background color */
+}
+
+.dark main p,
+.dark main ol {
+    color: #fff; /* Light text color for paragraphs and lists */
+}
+
+.dark main ol {
+    list-style: none; /* Remove list bullets */
+}
+
+.dark main ol li {
+    padding-left: 20px; /* Adjust spacing for list items */
+}
+
+.dark main ol li::before {
+    content: "•"; /* Use a custom bullet character */
+    color: #fff; /* Light color for bullet */
+    display: inline-block;
+    width: 1em; /* Set bullet width */
+    margin-left: -1em; /* Move bullet to the left */
+}
+
+.dark footer {
+    background-color: #333; /* Dark footer background color */
+}
+
+.dark #ms {
+    color: #ffa500; /* Adjust color for the mission statement */
+}
+
+.dark #byui {
+    color: #ffa500; /* Adjust color for the BYUI heading */
+}
