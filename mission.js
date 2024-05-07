@@ -4,9 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function setTheme(theme) {
         if (theme === "dark") {
-            document.body.classList.add("dark-mode");
+            document.body.classList.add("dark");
         } else {
-            document.body.classList.remove("dark-mode");
+            document.body.classList.remove("dark");
         }
     }
 
